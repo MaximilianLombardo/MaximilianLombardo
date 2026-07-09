@@ -25,3 +25,5 @@ Creative technology (Remotion, generative design)
 
 *For collaborations, speaking, or inquiries — reach me through the contact
 section on [my website](https://www.maximilianlombardo.com).*
+
+<!-- profile -->
