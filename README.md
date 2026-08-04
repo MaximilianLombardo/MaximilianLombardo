@@ -9,6 +9,25 @@ productize foundation models and AI-powered tools for computational biologists
 and researchers. I came to product from a computational biology background,
 pairing technical depth with creative problem-solving.
 
+```mermaid
+%%{init: {'theme':'base','themeVariables':{
+  'background':'transparent',
+  'primaryColor':'transparent',
+  'primaryBorderColor':'#7d8590',
+  'primaryTextColor':'#7d8590',
+  'lineColor':'#7d8590',
+  'fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace',
+  'fontSize':'13px'
+}}}%%
+flowchart LR
+    DATA[single-cell data] --> MODELS[foundation models]
+    MODELS --> PLATFORM[Virtual Cells Platform]
+    MODELS --> ANNOT[annotation engine]
+    PLATFORM --> CXG[CELLxGENE]
+    ANNOT --> CXG
+    CXG --> OUT[discovery]
+```
+
 ### What I'm working on
 - **Biological foundation models & the [Virtual Cells Platform](https://virtualcellmodels.cziscience.com/)** — orchestrating model releases across AI Research, Engineering, and Product.
 - **[CELLxGENE](https://cellxgene.cziscience.com/)** — visualization, data discovery, and API tooling for single-cell data and AI models.
